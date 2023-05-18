@@ -2,7 +2,7 @@ class Solution {
 public:
     void dfscall(vector<vector<int>> &vis ,vector<vector<char>>& b,int x,int y,int n,int m)
     {
-        vis[x][y]=1;
+         vis[x][y]=1;
         cout<<"("<<x<<","<<y<<")"<<" ";
                     if( x-1 >= 0)
                     {
